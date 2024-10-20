@@ -1,0 +1,74 @@
+body{
+    background-color:#e6e5e5;
+}
+
+
+h1{
+    font-size: 60px;
+}
+
+h4{
+    font-size: 20px;
+    margin: 20px;
+}
+
+
+#loginWindow{
+    background-color: white;
+    margin:auto;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 50px;   
+    height: 650px;
+    width: 400px;
+    border: 2px, solid, black;
+    border-radius: 25px;
+}
+
+#loginText{
+    text-align: center;
+}
+
+.socialButton{
+    font-size: 30px;
+    border-radius: 25px;
+    color: white;
+    padding: 5px 10px;
+    width: 250px;
+    margin: 5px;
+    transition: 0.2s ease;
+    border: 2px solid black;
+
+}
+
+.socialButton:hover{
+    scale: 1.1;
+}
+
+.textBox{
+    width: 250px;
+    height: 30px;
+    margin: -30px;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding-left: 10px;
+
+}
+    
+
+
+#facebookButton{
+    background-color: #1877F2;
+}
+
+#googleButton{
+    background-color: #cf553d;
+}
+
+#appleButton{
+    background-color: black;
+}
+
+#continueButton{
+    background-color: rgb(5, 122, 19);
+}
