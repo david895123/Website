@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    size: 75;
+}
+h1{
+    font-size: 60px;
+    
+    color: black;
+}
+
+h2{
+    font-size: 55px;
+    
+    color: black;
+}
+h3{
+    font-size: 40px;
+    color: black;
+}
+h4{
+    font-size: 20px;
+    color: black;
+}
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+p{
+    font-size: 16px;
+    color: black;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color:beige;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#navbarLeft{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+#navbarLeft li{
+    list-style: none;
+   
+}
+
+#navbarRight{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+}
+#navbarRight li{
+    list-style: none;
+   
+}
+
+.navbarItem a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color:rgb(47, 48, 49) ;
+    transition: 0.2s ease;
+}
+.navbarItem a:hover{
+    color: cornflowerblue;
+}
+
+#hero
+{
+    background-color: aquamarine ;
+    display: flex;
+    padding: 0 80px;
+    align-items: flex-start ;
+    justify-content: center;
+    margin: 5px,10px;
+    border-radius: 30px;
+
+}
+#heroText{
+    padding: 100px;
+}
+#heroText h1{
+    padding-bottom: 15px;
+
+}
+#heroText h2{
+    padding-bottom: 15px;
+    color:crimson;
+} 
+#heroText h3{
+    padding-bottom: 15px;
+}
+#hero button{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    font-weight: 700;
+}
+#hero button:hover{
+    scale: 1.2;
+    background-color: darkgray;
+}
+#hero button:active{
+    background-color: cornflowerblue;
+}
+
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #F7F7F7;
+}
+
+#feature .fe-box{
+
+    width: 250px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(93, 93, 93, 0.2);
+    border-radius: 10px;
+    margin: 15px 0;
+    transition: 0.3s ease;
+    
+}
+#feature .fe-box i{
+    font-size: 80px;
+    padding-bottom:30px;
+    padding-top: 20px;
+}
+
+#feature .fe-box:hover{
+    scale: 1.1;
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.05); ;
+}
+#feature .fe-box h4{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 10px;
+    color: black;
+    background-color: chocolate;
+}
+#product1{
+   text-align: center; 
+}
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    scale: 80%;
+}
+
+#product1 .pro{
+    scale: 90%;
+    width: 23% ;
+    min-width: 250;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgba(93, 93, 93, 0.2);
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.05);
+    margin: 15px,0px;
+    transition: 0.2s ease;
+    
+}
+#product1 .pro:hover{
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.08);
+    scale: 95%;
+}
+#product1 .pro img{
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+
+}
+#product1 .pro .description{
+    text-align: start;
+    padding: 10px,0;
+}
+
+#product1 .pro .description h5{
+    padding-top: 7px;
+    font-size: 18px;
+    color: black;
+}
+#product1 .pro .description{
+    font-size: 15px;
+    color: gold;
+}
+#product1 .pro .description h4{
+    padding-top: 7px;
+    font-size: 20px;
+    font-weight: 700px;
+    color: rgb(68, 154, 35);
+}
+#product1 .pro .desc-icons{
+    text-align: end;
+}
+#product1 .pro .desc-icons a{
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 500;
+    color: darkgreen;      
+}
+#product1 .pro .desc-icons i:hover{
+    scale: 1.1;
+}
