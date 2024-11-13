@@ -62,7 +62,7 @@
      color: rgb(68, 154, 35);
  }
  #product1 .pro .desc-icons{
-     position: relative;
+     position: absolute;
      bottom: 0px;
      left: 100px;
  }

@@ -1,0 +1,29 @@
+#productBar2{
+    display: flex;
+    align-items: start;
+    justify-content:left;
+    background-color:gray;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    z-index: 999;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+    padding-left: 30px;
+    padding-top: 70px;
+
+
+    background-image: url(/Images/Products/guitarBackground.jpg);
+    
+}
+
+.prodButton{
+    font-size: 25px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 25px;
+    transition: 0.2s ease;
+
+}
+.prodButton:hover{
+    scale: 1.1;
+}

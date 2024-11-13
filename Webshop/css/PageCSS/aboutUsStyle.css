@@ -1,0 +1,44 @@
+#textBlock{
+    background-color:#e6e5e5 ;
+}
+
+#title{
+    align-items: center;
+    justify-content: center;
+    margin: 130px;
+}
+#title h4{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+#welcome{
+    background-color: white;
+   
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#welcome .text
+{
+   margin-right: 100px; 
+}
+
+#welcome .text h4{
+    font-size: 25px;
+}
+
+#welcome .text h2
+{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
