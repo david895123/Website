@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: white ;
+    background-color: #025950 ;
 }
 
 #title{
@@ -21,11 +21,15 @@ body{
     display: flex;
   justify-content: center;  /* Centers horizontally */
   align-items: center;      /* Centers vertically */
-  height: 200px;   
+  height: 200px;  
+  color: #e6e5e5; 
+}
+#title h2{
+    color: #e6e5e5;
 }
 
 #title h4{
-    color: black;
+    color: #e6e5e5;
     text-align: center;
     font-size: 50px;
 }

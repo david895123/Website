@@ -7,8 +7,14 @@
      flex-wrap: wrap;
      
  }
+
+ #product1 h2{
+    color: #e6e5e5;
+    margin: 100px;
+ }
  
  #product1 .pro{
+    background-color: #AFDDE5;
     margin: 10px;
     position: relative;
      width: 15% ;

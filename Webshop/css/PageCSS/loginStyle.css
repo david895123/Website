@@ -11,10 +11,12 @@ h1{
     font-size: 20px;
     margin: 20px;
 }
-
+.textBox{
+    background-color: #AFDDE5;
+}
 
 #loginWindow{
-    background-color: white;
+    background-color: #0FA4AF;
     margin:auto;
     align-items: center;
     justify-content: center; 

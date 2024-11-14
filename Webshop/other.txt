@@ -1,0 +1,7 @@
+Colors:
+darker blue #003135
+dark blue #025950
+orange #964734
+light blue #0FA4AF
+lighter blue #AFDDE5
+off white: #e6e5e5

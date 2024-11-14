@@ -1,7 +1,7 @@
 
 #hero
 {
-    background-color: #30D5C8 ;
+    background-color: #0FA4AF ;
     display: flex;
     padding: 0 80px;
     align-items: flex-start ;
@@ -51,7 +51,7 @@
 }
 
 #feature .fe-box{
-
+    background-color: #AFDDE5;
     width: 200px;
     text-align: center;
     padding: 25px 15px;
