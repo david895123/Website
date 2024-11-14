@@ -1,21 +1,37 @@
 #textBlock{
-    background-color:#e6e5e5 ;
+    background-color:white;
+}
+
+body{
+    background-color: white ;
 }
 
 #title{
-    align-items: center;
-    justify-content: center;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 200px;   
+    
     margin: 130px;
+
+    margin-bottom: 400px;
 }
+#title h1{
+    font-size: 100px;
+    display: flex;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;      /* Centers vertically */
+  height: 200px;   
+}
+
 #title h4{
     color: black;
     text-align: center;
     font-size: 50px;
 }
 
-#welcome{
-    background-color: white;
-   
+#block1{
+    background-color: #e6e5e5;
 }
 
 .content{
@@ -40,5 +56,28 @@
 {
     margin-top: 10px;
     margin-bottom: 50px;
+}
+#shopButton{
+    width: 200px;
+    height: 70px;
+    border-radius: 30px;
+    margin-right: 250px;
+    margin-top: 25px;
+    transition: 0.2s ease;
+}
+#shopButton a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+
+#shopButton:hover{
+
+    scale: 1.1;
+}
+
+#startShoppingText{
+    margin-right: 200px;
 }
 
