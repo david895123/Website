@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: #025950 ;
+    background-color: #003135 ;
 }
 
 #title{
@@ -35,7 +35,23 @@ body{
 }
 
 #block1{
-    background-color: #e6e5e5;
+    background-color: #025950;
+}
+
+#block2{
+    background-color: #003135;
+}
+
+#block3{
+    background-color: #025950;
+}
+
+#block4{
+    background-color: #003135;
+}
+
+#block5{
+    background-color: #025950;
 }
 
 .content{
@@ -54,24 +70,29 @@ body{
 
 #welcome .text h4{
     font-size: 25px;
+    color: #e6e5e5;
 }
 
 #welcome .text h2
 {
     margin-top: 10px;
     margin-bottom: 50px;
+    color: #e6e5e5;
 }
 #shopButton{
     width: 200px;
     height: 70px;
     border-radius: 30px;
     margin-right: 250px;
-    margin-top: 25px;
+    margin-top: 40px;
     transition: 0.2s ease;
+    background-color: #964734;
+    border: 1px, solid, black;
+
 }
 #shopButton a{
     text-decoration: none;
-    color: black;
+    color:#e6e5e5 ;
     font-size: 20px;
     
 }
