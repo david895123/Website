@@ -12,7 +12,7 @@
     padding-top: 70px;
 
 
-    background-image: url(../../Images/Products/guitarBackground.jpg);
+    background-image: url(/Images/Products/guitarBackground.jpg);
     
 }
 
@@ -21,8 +21,9 @@
     margin: 10px;
     padding: 15px;
     border-radius: 25px;
+    border: 1px black;
     transition: 0.2s ease;
-    background-color: #AFDDE5;
+    background-color: #d46724;
 
 }
 .prodButton:hover{

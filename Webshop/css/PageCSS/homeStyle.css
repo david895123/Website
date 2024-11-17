@@ -1,13 +1,14 @@
 
 #hero
 {
-    background-color: #0FA4AF ;
+
+background-color: #48868b ;
     display: flex;
     padding: 0 80px;
     align-items: flex-start ;
     justify-content: center;
     margin: 5px,10px;
-    border-radius: 30px;
+    
 
 }
 #heroText{
@@ -28,16 +29,17 @@
     width: 200px;
     height: 50px;
     font-size: 30px;
-    border: none;
+    border: 1px solid black;
     outline: none;
     border-radius: 15px;
     cursor: pointer;
     transition: 0.2s ease;
     font-weight: 700;
+    background-color: #ff8b42;
 }
 #hero button:hover{
     scale: 1.2;
-    background-color: darkgray;
+    background-color: #de6215;
 }
 #hero button:active{
     background-color: cornflowerblue;
@@ -51,7 +53,7 @@
 }
 
 #feature .fe-box{
-    background-color: #AFDDE5;
+    background-color: #48868b;
     width: 200px;
     text-align: center;
     padding: 25px 15px;
@@ -78,7 +80,7 @@
     line-height: 1;
     border-radius: 10px;
     color: black;
-    background-color: chocolate;
+    background-color: #ff8b42;
 }
 
 #product1 h2{

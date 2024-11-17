@@ -1,10 +1,15 @@
 #textBlock{
     background-color:white;
+    justify-content: center;
+    align-items: center;
 }
 
 body{
-    background-color: #003135 ;
+
+background-color: #003135;
 }
+
+
 
 #title{
     display: flex;
@@ -35,11 +40,12 @@ body{
 }
 
 #block1{
-    background-color: #025950;
+background-color: #025950;
+    
 }
 
 #block2{
-    background-color: #003135;
+background-color: #59566e;
 }
 
 #block3{
@@ -47,12 +53,16 @@ body{
 }
 
 #block4{
-    background-color: #003135;
+    background-color: #59566e;
 }
 
 #block5{
     background-color: #025950;
 }
+
+
+
+
 
 .content{
     display: flex;
@@ -63,6 +73,8 @@ body{
     padding-bottom: 40px;
 }
 
+
+
 #welcome .text
 {
    margin-right: 100px; 
@@ -70,29 +82,26 @@ body{
 
 #welcome .text h4{
     font-size: 25px;
-    color: #e6e5e5;
 }
 
 #welcome .text h2
 {
     margin-top: 10px;
     margin-bottom: 50px;
-    color: #e6e5e5;
 }
 #shopButton{
     width: 200px;
     height: 70px;
     border-radius: 30px;
     margin-right: 250px;
-    margin-top: 40px;
+    margin-top: 0px;
     transition: 0.2s ease;
-    background-color: #964734;
-    border: 1px, solid, black;
 
+    background-color: #ff8b42 ;
 }
 #shopButton a{
     text-decoration: none;
-    color:#e6e5e5 ;
+    color: black;
     font-size: 20px;
     
 }

@@ -5,3 +5,13 @@ orange #964734
 light blue #0FA4AF
 lighter blue #AFDDE5
 off white: #e6e5e5
+
+palette:
+light grey #94b0b3
+grey #617c7e
+purepule #2b293f
+light purepule #59566e
+orange #ff8b42
+light green #60ac6c
+green #268265
+dark green #005952
