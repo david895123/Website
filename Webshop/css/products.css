@@ -68,19 +68,28 @@
      padding-top: 7px;
      font-size: 20px;
      font-weight: 700px;
-     color: #116b32;
+     color: #02441a;
  }
  #product1 .pro .desc-icons{
      position: absolute;
      bottom: 0px;
      left: 110px;
+     transition: 0.3s ease;
+
  }
  #product1 .pro .desc-icons a{
      font-size: 25px;
      line-height: 40px;
      font-weight: 500;
-     color: #116b32;      
+     color: #02441a;  
+
+    
  }
+ #product1 .pro .desc-icons i{
+    transition: 0.2s ease;
+
+ }
+
  #product1 .pro .desc-icons i:hover{
-     scale: 1.1;
+     scale: 1.2;
  }

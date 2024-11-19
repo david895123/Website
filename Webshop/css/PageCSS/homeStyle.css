@@ -37,7 +37,7 @@ background-color: #48868b ;
     cursor: pointer;
     transition: 0.2s ease;
     font-weight: 700;
-    background-color: #ff8b42;
+    background-color: #d46724;
 }
 #hero button:hover{
     scale: 1.2;
@@ -86,7 +86,8 @@ background-color: #48868b ;
     line-height: 1;
     border-radius: 10px;
     color: black;
-    background-color: #ff8b42;
+    background-color: #d46724;
+
 }
 
 #product1 h2{

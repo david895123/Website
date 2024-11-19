@@ -27,4 +27,5 @@
 }
 .prodButton:hover{
     scale: 1.1;
+    background-color: #e0712b;
 }
