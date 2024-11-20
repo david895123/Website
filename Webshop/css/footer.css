@@ -1,0 +1,33 @@
+.footer{
+    background-color:rgb(27, 27, 27);
+    padding-left: 100px;
+    padding-right:100px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+   
+}
+.footer #icons{
+    color: white;
+    font-size: 25px;
+}
+
+
+.footer #colums{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.footer #colums h4{
+    color: grey;
+    font-weight: 300;
+    font-size: 18px;
+}
+.footer #copyright{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    color: grey;
+}
